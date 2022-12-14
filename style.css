@@ -76,7 +76,7 @@ header a {
     animation: colorIns 2s linear infinite alternate;
 }
 
-@keyframe colorIns {
+@keyframes colorIns {
     0% {
     color: #8a3ab9;
     }
