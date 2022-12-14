@@ -71,6 +71,26 @@ header {
     box-shadow: 0 0 8px rgba(28, 32, 93, 0.2);
 }
 
+header a {
+    text-decoration: none;
+    animation: colorIns 2s linear infinite alternate;
+}
+
+@keyframe colorIns {
+    0% {
+    col;or: #8a3ab9;
+    }
+    25%{
+    color: #bc2a8d;
+    }
+    50% {
+    color: #fccc63;
+    }
+    100% {
+    color: #fbad50;
+    }
+}
+
 header h1 {
     font-size: 1.2em;
     margin: 1em 0 0;
